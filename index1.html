@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=""width=device-width, initial-scale="1.0">
+	  <link rel="stylesheet" href="main1.css" (type="text/css")>
+  <script src="main1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+	<title>슬라이드 실습</title>
+</head>
+
+<body>
+  <div id="main">	
+	<!-- 메인 슬라이드 -->
+	<div class="main-slide">
+		<div class="cycle-slideshow" id="main-slide"
+		  data-cycle-timeout="4000"
+		  data-cycle-slides="> div"
+		  data-cycle-pager=".main-slide .main-slide-pager"
+		  data-cycle-prev="#mTprev"
+		  data-cycle-next="#mTnext"
+		  data-cycle-auto-height="calc">
+			<div>
+				<a href="#none">
+					<span><img src="./img/main_image01.png" alt=""/></span>
+					<div class="main-visual-title">
+						<ul>
+							<li><img src="./img/main01_txt01.png" alt=""/></li>
+							<li><img src="./img/main01_txt02.png" alt=""/></li>
+							<li><img src="./img/main01_txt03.png" alt=""/></li>
+						</ul>
+					</div>
+				</a>
+			</div>
+			<div>
+				<a href="#none">
+					<span><img src="./img/main_image02.png" alt=""/></span>
+					<div class="main-visual-title">
+						<ul>
+							<li><img src="./img/main02_txt01.png" alt=""/></li>
+							<li><img src="./img/main02_txt02.png" alt=""/></li>
+							<li><img src="./img/main02_txt03.png" alt=""/></li>
+						</ul>
+					</div>
+				</a>
+			</div>
+			<div>
+				<a href="#none">
+					<span><img src="./img/main_image03.png" alt=""/></span>
+					<div class="main-visual-title">
+						<ul>
+							<li><img src="./img/main03_txt01.png" alt=""/></li>
+							<li><img src="./img/main03_txt02.png" alt=""/></li>
+							<li><img src="./img/main03_txt03.png" alt=""/></li>
+						</ul>
+					</div>
+				</a>
+			</div>
+		</div>   
+  </div>
+</body>
+<!--// 메인 슬라이드 -->
