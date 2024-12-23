@@ -1,1 +1,1 @@
-프론트엔드 실무 프로젝트 강의자료
+Frontend Practical Project Lecture Material
